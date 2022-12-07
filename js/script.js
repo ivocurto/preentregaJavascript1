@@ -4,7 +4,7 @@ for(let i=1;i<=3;i++){
      let usuario=prompt("Ingresa tu nombre de usuario");
      let password=prompt("Ingresa tu contraseña");
 
-     if((usuario=="Ivo")&&(password="1234")){
+     if((usuario=="Ivo")&&(password=="1234")){
          alert("Bienvenido al sistema");
          break;
      }else{
@@ -24,7 +24,7 @@ calcularEdad();
 
 
 // minutos en el gim de descanso
-let repeticiones = parseInt (prompt("Ingrese la cantidad de repeticiones que hizo o debe hacer"));
+let repeticiones = parseInt (prompt("Este programa sirve para calcular tiempo de descanso en el gimnasio. Ingrese la cantidad de repeticiones que hizo o debe hacer"));
 
 if(repeticiones < 1) {
     alert("El mínimo de repeticiones es 1");
